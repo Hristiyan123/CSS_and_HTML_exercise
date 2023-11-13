@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+  <body>
+    <body>
+      <header>
+        <div class="logo-container">
+          <a href="/html" class="logo-link">
+            <img class="logo" src="/logo.png" alt="logo" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/html">Home</a></li>
+            <li><a id="about" href="/aboutUs/html">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </body>
+    
+
+    <div class="ride">
+      <a href="/ride/html" target="_self">LET'S RIDE</a>
+    </div>
+    <div class="text">
+
+      <p>
+      We are a premier skate event company dedicated to bringing you thrilling and
+      unforgettable skateboarding experiences. With a passion for the sport and
+      a commitment to excellence, we create dynamic events that celebrate the
+      artistry, skill, and adrenaline of skateboarding. Join us as we push the
+      boundaries of what's possible on four wheels. Our events showcase the
+      world's top skateboarding talent, featuring jaw-dropping tricks,
+      mind-blowing stunts, and fierce competitions that will leave you
+      breathless. Whether you're a seasoned skateboarder or just starting out,
+      we offers something for everyone. Our events cater to all skill levels,
+      from beginners to professionals, with exciting activities and challenges
+      that will test your limits and ignite your passion for
+      skateboarding.Immerse yourself in the electric atmosphere as spectators
+      cheer on their favorite riders, feel the rush of adrenaline as skaters
+      soar through the air, and witness the camaraderie and community that make
+      skateboarding truly special. Unleash your passion, ignite your spirit, and
+      experience the thrill of skateboarding like never before. Let's ride!
+      </p>
+      </div>
+
+      <div class="image">
+        <img src="/aboutUs/photos/skate-photo.png" alt="skate-img" />
+      </div>
+
+      <div class="mediaContainer">
+        <a href="#" class="instagram" target="_blank">
+          <img src="/aboutUs/photos/instagram.png" alt="Instagram">
+        </a>
+    
+        <a href="#" class="facebook">
+          <img src="/aboutUs/photos/facebook.png" alt="Facebook">
+        </a>
+    
+        <a href="#" class="gmail">
+          <img src="/aboutUs/photos/gmail.png">
+        </a>
+      </div>
+      
+    </body>
+  </html>
+  </body>
+</html>
