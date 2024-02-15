@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  background-image: url(/aboutUs/photos/6.png);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: #EBA75E;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.logo {
+  width: 75px;
+  height: 70px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background-color 0.6s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #EBA75E;
+}
+
+.dropdownMenu{
+  min-width: 9cm;
+  position: relative;
+  margin: 3cm;
+}
+
+.dropdownMenu * {
+  box-sizing: border-box;
+}
+
+.select{
+  background:rgb(35, 45, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 8px;
+  padding: 35px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.select-clicked {
+  border: 2px #26489a solid;
+  box-shadow: 0 0 0.8em #26489a;
+}
+
+.select:hover{
+  background: #8b8e93;
+}
+
+.caret{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid white;
+  transition: 0.3s;
+}
+
+.caret-rotate{
+  transform: rotate(180deg);
+}
+
+.menu{
+  list-style: none;
+  padding: 0cm 0cm;
+  background: #323741;
+  border: 1px #363a43 solid;
+  border-radius: 2px;
+  color: #9fa5b5;
+  position: absolute; 
+  top: 100%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  opacity: 0;
+  display: none;
+  transition: 0.8s;
+  z-index: -1;
+}
+
+.menu li {
+  padding: 0.1cm;
+  margin: 0cm;
+  border-radius: 2px;
+}
+
+.active {
+  background: #23242a;
+}
+
+.menu.open{
+  display: block;
+  opacity: 1;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/ride/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <a href="/Untitled-1.html" class="logo-link">
+        <img class="logo" src="/aboutUs/photos/logo.png" alt="logo" />
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/html">Home</a></li>
+        <li><a id="about" href="/aboutUs/html">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="dropdownMenu">
+    <div class="select">
+        <span class="selected">Sofiya</span>
+        <div class="caret"></div>
+    </div>
+    <ul class="menu">
+        <li>Name of the event: </li>
+        <li>Location: </li>
+        <li>Skate stars: </li>
+        <li>Time: </li>
+    </ul>
+  </div>
+
+  <div class="dropdownMenu">
+    <div class="select">
+        <span class="selected">Plovdiv</span>
+        <div class="caret"></div>
+    </div>
+    <ul class="menu">
+        <li>Name of the event: </li>
+        <li>Location: </li>
+        <li>Skate stars: </li>
+        <li>Time: </li>
+    </ul>
+  </div>
+
+  <div class="dropdownMenu">
+    <div class="select">
+        <span class="selected">Varna</span>
+        <div class="caret"></div>
+    </div>
+    <ul class="menu">
+        <li>Name of the event: </li>
+        <li>Location: </li>
+        <li>Skate stars: </li>
+        <li>Time: </li>
+    </ul>
+  </div>
+
+  <div class="dropdownMenu">
+    <div class="select">
+        <span class="selected">Burgas</span>
+        <div class="caret"></div>
+    </div>
+    <ul class="menu">
+        <li>Name of the event: </li>
+        <li>Location: </li>
+        <li>Skate stars: </li>
+        <li>Time: </li>
+    </ul>
+  </div>
+
+  <script src="/ride/dropdown.js"></script>
+</body>
+</html>
